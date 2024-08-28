@@ -30,6 +30,7 @@ div#homebox {
     max-width: 849px;
     margin: 0 auto;
     padding: 69px 2px 39px 2px;
+    margin-top: 122px;
 }
 .buttonGroup {
     margin-bottom: 30px;
@@ -95,6 +96,7 @@ span.dontprotitle {
 section.bgtwopartPages {
     background: #e6dace;
     padding-bottom: 20px;
+    margin-top: 120px;
 }
 div#insideProfile-box {
     max-width: 800px;
@@ -136,4 +138,12 @@ h3.pnTitle {
 .exp-btn {
     display: flex;
     justify-content: space-between;
+}
+nav.navbar.navbar-expand-lg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
