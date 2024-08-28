@@ -1,0 +1,83 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+div#navbarSupportedContent ul.navbar-nav {
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+p{
+    font-weight: 300;
+}
+section.bgtwopart {
+    background: url(..//img/profile-bg.png);
+    background-position: 30%;
+}
+ul.navbar-nav a.nav-link.active {
+    color: #0d6efd;
+}
+.proHome {
+    max-width: 375px;
+    background: #f4ece6;
+    text-align: center;
+}
+.footerproHome {
+    background: white;
+    padding: 20px 2px;
+}
+div#homebox {
+    max-width: 849px;
+    margin: 0 auto;
+    padding: 69px 2px;
+}
+.buttonGroup {
+    margin-bottom: 30px;
+}
+
+p.helloTxt {
+    font-size: 100px;
+    font-weight: 900;
+}
+p.helloTxt-des {
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+}
+h1.prohomeName {
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 27px;
+}
+h3.prohomePM {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0.25em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.proHome-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.proHomeimg {
+    padding: 43px 0px 34px 0;
+}
+.divider:before {
+    content: "";
+    background: #0d6efd;
+    height: 1px;
+    top: 0;
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.divider {
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
