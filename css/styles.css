@@ -147,3 +147,11 @@ nav.navbar.navbar-expand-lg {
     width: 100%;
     z-index: 2;
 }
+.footerlist p:first-child {
+    font-weight: bold;
+}
+.footerbox {
+    display: flex;
+    justify-content: end;
+    column-gap: 97px;
+}
