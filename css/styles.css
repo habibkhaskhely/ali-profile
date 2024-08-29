@@ -6,14 +6,22 @@ div#navbarSupportedContent ul.navbar-nav {
     justify-content: end;
     display: flex;
     width: 100%;
+    padding-right: 60px;
 }
 p{
     font-weight: 300;
+}
+a.navbar-brand {
+    padding-left: 40px;
 }
 section.bgtwopart {
     background: url(..//img/profile-bg.png);
     background-position: 30%;
     margin-bottom: 50px;
+}
+section#footer {
+    padding-left: 50px;
+    padding-right: 60px;
 }
 ul.navbar-nav a.nav-link.active {
     color: #0d6efd;
