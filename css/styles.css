@@ -13,6 +13,7 @@ p{
 section.bgtwopart {
     background: url(..//img/profile-bg.png);
     background-position: 30%;
+    margin-bottom: 50px;
 }
 ul.navbar-nav a.nav-link.active {
     color: #0d6efd;
@@ -21,10 +22,12 @@ ul.navbar-nav a.nav-link.active {
     max-width: 375px;
     background: #f4ece6;
     text-align: center;
+    box-shadow: 11px 5px 14px #80808033;
 }
 .footerproHome {
     background: white;
     padding: 20px 2px;
+    box-shadow: var(--shd, 0 1px 4px rgb(0 0 0 / 14%));
 }
 div#homebox {
     max-width: 849px;
@@ -97,6 +100,7 @@ section.bgtwopartPages {
     background: #e6dace;
     padding-bottom: 20px;
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 div#insideProfile-box {
     max-width: 800px;
@@ -155,3 +159,12 @@ nav.navbar.navbar-expand-lg {
     justify-content: end;
     column-gap: 97px;
 }
+a.navbar-brand {
+    line-height: 1em;
+    font-size: 25px;
+    font-weight: bold;
+}
+span.pm-task-post {
+    font-weight: 400;
+}
+
