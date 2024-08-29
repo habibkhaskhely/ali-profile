@@ -61,6 +61,10 @@ h1.prohomeName {
     text-align: center;
     font-size: 27px;
 }
+button.btn {
+    border-radius: 20px;
+    padding: 6px 34px;
+}
 h3.prohomePM {
     text-align: center;
     font-size: 17px;
