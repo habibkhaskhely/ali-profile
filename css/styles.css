@@ -179,4 +179,14 @@ a.navbar-brand {
 span.pm-task-post {
     font-weight: 400;
 }
-
+h4.resume-subtitle {
+    font-weight: normal;
+    font-size: 20px;
+}
+.resume-Desc {
+    margin-top: 108px;
+    width: 678px;
+    font-size: 20px;
+    padding-right: 52px;
+    padding-bottom: 60px;
+}
