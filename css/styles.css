@@ -6,14 +6,22 @@ div#navbarSupportedContent ul.navbar-nav {
     justify-content: end;
     display: flex;
     width: 100%;
+    padding-right: 60px;
 }
 p{
     font-weight: 300;
+}
+a.navbar-brand {
+    padding-left: 40px;
 }
 section.bgtwopart {
     background: url(..//img/profile-bg.png);
     background-position: 30%;
     margin-bottom: 50px;
+}
+section#footer {
+    padding-left: 50px;
+    padding-right: 60px;
 }
 ul.navbar-nav a.nav-link.active {
     color: #0d6efd;
@@ -53,12 +61,16 @@ h1.prohomeName {
     text-align: center;
     font-size: 27px;
 }
+button.btn {
+    border-radius: 20px;
+    padding: 6px 34px;
+}
 h3.prohomePM {
     text-align: center;
     font-size: 17px;
     letter-spacing: 0.25em;
     font-weight: 400;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 .proHome-social {
     display: flex;
@@ -167,4 +179,14 @@ a.navbar-brand {
 span.pm-task-post {
     font-weight: 400;
 }
-
+h4.resume-subtitle {
+    font-weight: normal;
+    font-size: 20px;
+}
+.resume-Desc {
+    margin-top: 108px;
+    width: 678px;
+    font-size: 20px;
+    padding-right: 52px;
+    padding-bottom: 60px;
+}
