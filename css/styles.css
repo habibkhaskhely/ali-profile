@@ -183,6 +183,9 @@ h4.resume-subtitle {
     font-weight: normal;
     font-size: 20px;
 }
+h2.pnTitle {
+    margin-bottom: 20px;
+}
 .resume-Desc {
     margin-top: 67px;
     width: 678px;
@@ -254,4 +257,43 @@ h4.resume-subtitle a {
 .education-Desc p {
     font-size: 20px;
 }
+button.btn.btn-secondary {
+    background: transparent;
+    color: #333;
+}
+button.btn.btn-secondary:hover {
+    background: #0d6efd;
+    color: white;
+}
 
+@media(max-width:767px){
+    button.navbar-toggler {
+        z-index: 99;
+    }
+    a.navbar-brand {
+        display: none;
+    }
+    div#navbarSupportedContent {
+        height: 100vh;
+        left: 0;
+        background: #f4ece6;
+        text-align: center;
+        align-items: center;
+    }
+    div#navbarSupportedContent.navbar-collapse.collapse.show {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    div#navbarSupportedContent ul.navbar-nav {
+        padding-right: 0px;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    ul.navbar-nav a.nav-link {
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
