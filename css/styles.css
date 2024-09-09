@@ -190,3 +190,28 @@ h4.resume-subtitle {
     padding-right: 52px;
     padding-bottom: 60px;
 }
+.listitembox {
+    margin: 67px 67px 67px 37px;
+}
+.listitembox ul li {
+    position: relative;
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    float: left;
+    width: 50%;
+}
+.listitembox ul li:before {
+    background: #0d6efd;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    content: "";
+    left: -16px;
+    top: 3px;
+}
+.projectdatbox {
+    width: 94%;
+}
+
+
