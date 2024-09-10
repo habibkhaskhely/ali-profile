@@ -194,15 +194,23 @@ h2.pnTitle {
     padding-bottom: 60px;
 }
 .listitembox {
-    margin: 67px 67px 67px 37px;
+    margin: 67px 67px 6px 37px;
+    display: flex;
+    flex-direction: column;
+}
+.listitembox:nth-child(2) {
+    margin-bottom: 67px;
+    margin-top: 22px;
 }
 .listitembox ul li {
     position: relative;
     list-style: none;
     padding-left: 10px;
     margin-bottom: 20px;
-    float: left;
-    width: 50%;
+}
+.listitembox ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .listitembox ul li:before {
     background: #0d6efd;
