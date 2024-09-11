@@ -222,7 +222,7 @@ h2.pnTitle {
     top: 3px;
 }
 .projectdatbox {
-    width: 94%;
+    width: 99%;
 }
 h2.sub-title-resume {
     font-weight: bold;
@@ -254,7 +254,7 @@ h4.resume-subtitle:nth-child(2) {
     font-weight: 500;
 }
 h4.resume-subtitle:nth-child(3) {
-    font-size: 1.3rem;
+    font-size:1.1rem;
 }
 h4.resume-subtitle:nth-child(4) {
     font-size: 1rem;
