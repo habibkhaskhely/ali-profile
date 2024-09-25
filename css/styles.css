@@ -275,6 +275,29 @@ button.btn.btn-secondary:hover {
 }
 /* START MOBILE */
 @media(max-width:767px){
+	.listitembox {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.listitembox ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+	.education-Desc {
+    margin-top: 20px;
+}
+	.educationList {
+    flex-direction: column;
+}
+	.resume-Desc {
+    margin: 35px 98px 2px 37px;
+    width: 92%;
+    padding-right: 52px;
+    padding-bottom: 60px;
+}
+	.ProjectListdata {
+    flex-direction: column;
+}
 	section.bgtwopart {
     background-position: 0%;
 }
