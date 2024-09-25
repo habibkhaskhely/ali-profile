@@ -273,8 +273,12 @@ button.btn.btn-secondary:hover {
     background: #0d6efd;
     color: white;
 }
-
+/* START MOBILE */
 @media(max-width:767px){
+	section.bgtwopart {
+    background-position: 0%;
+}
+
     button.navbar-toggler {
         z-index: 99;
     }
