@@ -115,7 +115,7 @@ section.bgtwopartPages {
     margin-bottom: 50px;
 }
 div#insideProfile-box {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 .ProjectListdata {
@@ -211,6 +211,8 @@ h2.pnTitle {
 .listitembox ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 14px;
+    gap: 10px;
 }
 .listitembox ul li:before {
     background: #0d6efd;
@@ -218,8 +220,8 @@ h2.pnTitle {
     width: 15px;
     position: absolute;
     content: "";
-    left: -16px;
-    top: 3px;
+    left: -11px;
+    top: 6px;
 }
 .projectdatbox {
     width: 99%;
