@@ -277,6 +277,16 @@ button.btn.btn-secondary:hover {
 }
 /* START MOBILE */
 @media(max-width:767px){
+	.footerbox {
+    flex-direction: column;
+}
+.proHome-social {
+    justify-content: left;
+}
+	.col-sm-4, .col-sm-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
 	.listitembox {
     margin-right: 20px;
     margin-left: 10px;
