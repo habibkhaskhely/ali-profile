@@ -283,6 +283,14 @@ button.btn.btn-secondary:hover {
 .proHome-social {
     justify-content: left;
 }
+section#footer {
+    padding-bottom: 30px;
+}
+nav.navbar.navbar-expand-lg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+}
 	.col-sm-4, .col-sm-8 {
     flex: 0 0 auto;
     width: 100%;
