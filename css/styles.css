@@ -115,7 +115,7 @@ section.bgtwopartPages {
     margin-bottom: 50px;
 }
 div#insideProfile-box {
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
 }
 .ProjectListdata {
@@ -211,6 +211,8 @@ h2.pnTitle {
 .listitembox ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 14px;
+    gap: 10px;
 }
 .listitembox ul li:before {
     background: #0d6efd;
@@ -218,8 +220,8 @@ h2.pnTitle {
     width: 15px;
     position: absolute;
     content: "";
-    left: -16px;
-    top: 3px;
+    left: -11px;
+    top: 6px;
 }
 .projectdatbox {
     width: 99%;
@@ -275,6 +277,47 @@ button.btn.btn-secondary:hover {
 }
 /* START MOBILE */
 @media(max-width:767px){
+	.footerbox {
+    flex-direction: column;
+}
+.proHome-social {
+    justify-content: left;
+}
+section#footer {
+    padding-bottom: 30px;
+}
+nav.navbar.navbar-expand-lg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+}
+	.col-sm-4, .col-sm-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+	.listitembox {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.listitembox ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+	.education-Desc {
+    margin-top: 20px;
+}
+	.educationList {
+    flex-direction: column;
+}
+	.resume-Desc {
+    margin: 35px 98px 2px 37px;
+    width: 92%;
+    padding-right: 52px;
+    padding-bottom: 60px;
+}
+	.ProjectListdata {
+    flex-direction: column;
+}
 	section.bgtwopart {
     background-position: 0%;
 }
